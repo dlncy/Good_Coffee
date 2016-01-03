@@ -1,0 +1,137 @@
+/*COLORS
+blue -  #a2ded0
+red -   #d64541
+black - #323232
+white - #f7fafe
+*/
+
+.container-fluid{
+  background-color: #2f221a;
+}
+
+
+body{
+  position: relative;
+	background-color: #a2ded0;
+	color:#323232;
+}
+
+
+.navbar-default{
+  background-color: #2F221A;
+  margin-left: 0;
+  margin-right: 0;
+  padding left: 15px;
+ 
+}
+.navbar-header{
+  background-color: #2F221A;
+  
+}
+
+.navbar-nav>li>a:link {color: whitesmoke;}
+.navbar-nav>li>a:visited {color:#B1AAA4;}
+.navbar-nav>li>a:hover {color: tan;}
+
+
+
+.collapse{
+  background-color: #2F221A;
+}
+
+
+.jumbotron{
+	background-image: url('../images/Drip_Coffee_Bangkok.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center -200px;
+	padding:20%;
+
+}
+
+.jumbotron h1{
+	color: #f7fafe;
+	position: absolute;
+	padding-left: 20px;
+	font-family: 'Playfair Display', serif;
+	left: 0;
+	top: 18;
+}
+
+.mission{
+	background-color: #261C15;
+	color: #f7fafe;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: 100;
+	margin-top: -30px;
+}
+.mission h3{
+font-family: 'Alegreya Sans SC' , sans-serif;
+font-weight: 100;
+padding: 5% 10%;
+text-align: center;
+position: center;
+font-size: 1.75em;
+margin-top: -5px;
+
+
+}
+
+.features{
+  height: 400px;
+  margin-top: 100px;
+  margin-bottom: px;
+	
+}
+.features p{
+	font-family: 'Muli', sans-serif;
+	text-align: center;
+	color: #323232;
+	font-size: 1.2em;
+	padding-top: 10px;
+
+}
+
+
+
+.venue{
+  background-color: antiquewhite;
+  margin-top: -30px;
+  height: 180px;
+  padding-top: 1em;
+  text-align: center;
+}
+
+.venue h3{
+  font-family: 'playfair display', serif;
+}
+.venue p{
+  font-family: "alegreya sans sc";
+  font-size: 1.3em;
+}
+
+footer {
+	background-color: #970000 !important ;
+   	width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+footer ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 2%;
+	float: right;
+	
+}
+
+footer p{
+	float: left;
+	padding: 2%;
+}
+
+footer a, footer p {
+	color: #f7fafe;
+	vertical-align: middle;
+}
